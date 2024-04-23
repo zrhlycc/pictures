@@ -7,7 +7,7 @@ function ImageList({ images }) {
     })
 
     return(
-        <div>
+        <div className='image-list'>
             {renderImage}
         </div>
     )
