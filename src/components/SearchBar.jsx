@@ -24,7 +24,7 @@ function SearchBar({ onSubmit }){
             <h1>Search Bar </h1>
             <form onSubmit={handleFormSubmit}>
                 Confirma tu busqueda: {term}
-                <imput onChange={handleChange} value={term}/>
+                <input onChange={handleChange} value={term}/>
             </form>
             <button onClick={handleClick}>Click Me! </button>
         </div>
